@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>311597398936-906r5et9eu5ukdesu31e66c8t04m9s39.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.311597398936-906r5et9eu5ukdesu31e66c8t04m9s39</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcPRglJN-35SHJ2DTDpF-1wFryPK8BTfA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>311597398936</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ilk.PoweOfThinking</string>
+	<key>PROJECT_ID</key>
+	<string>wordrepeatgame</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wordrepeatgame.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:311597398936:ios:4eb8acd63f635e9c8009ed</string>
+	<key>DATABASE_URL</key>
+	<string>https://wordrepeatgame.firebaseio.com</string>
+</dict>
+</plist>

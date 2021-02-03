@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		648BAC6C874F6BF7CAF2DFAB /* Pods_PoweOfThinking_PoweOfThinkingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387A7872C0C375035FB2F847 /* Pods_PoweOfThinking_PoweOfThinkingUITests.framework */; };
 		7BB7526F252C651800946383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7526E252C651800946383 /* AppDelegate.swift */; };
 		7BB75271252C651800946383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB75270252C651800946383 /* SceneDelegate.swift */; };
 		7BB75273252C651800946383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB75272252C651800946383 /* ViewController.swift */; };
@@ -15,6 +16,21 @@
 		7BB7527B252C651B00946383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB75279252C651B00946383 /* LaunchScreen.storyboard */; };
 		7BB75286252C651C00946383 /* PoweOfThinkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB75285252C651C00946383 /* PoweOfThinkingTests.swift */; };
 		7BB75291252C651C00946383 /* PoweOfThinkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB75290252C651C00946383 /* PoweOfThinkingUITests.swift */; };
+		7BB752A5252C738A00946383 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB752A4252C738A00946383 /* SignUpViewController.swift */; };
+		7BB752AA252C73A400946383 /* SignINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB752A9252C73A400946383 /* SignINViewController.swift */; };
+		7BB752AF252C982E00946383 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB752AE252C982E00946383 /* ForgotPasswordViewController.swift */; };
+		7BB752B7252E4EF700946383 /* AnaSayfaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB752B6252E4EF700946383 /* AnaSayfaViewController.swift */; };
+		7BB752BF252E7AEA00946383 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB752BE252E7AEA00946383 /* ProfileViewController.swift */; };
+		7BB752C4252FBC9800946383 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB752C3252FBC9800946383 /* GoogleService-Info.plist */; };
+		7BB7532125385A3D00946383 /* GamePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7532025385A3C00946383 /* GamePageViewController.swift */; };
+		7BF59612254B885700AF4F9C /* DesignableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF59611254B885700AF4F9C /* DesignableSlider.swift */; };
+		7BF5963D254BA09200AF4F9C /* NextSigninPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF5963C254BA09200AF4F9C /* NextSigninPageViewController.swift */; };
+		7BF60A06253D016900DAEAD2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF60A05253D016900DAEAD2 /* SwiftUIView.swift */; };
+		7BF60A112540CDBF00DAEAD2 /* RotatingCircularGradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF60A102540CDBF00DAEAD2 /* RotatingCircularGradientProgressBar.swift */; };
+		7BF60A192540D84D00DAEAD2 /* SoulStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF60A182540D84D00DAEAD2 /* SoulStatusViewController.swift */; };
+		7BF60A1E2540F11200DAEAD2 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF60A1D2540F11200DAEAD2 /* CircularProgressBar.swift */; };
+		A5F3B48570805EBF54BB3CFD /* Pods_PoweOfThinking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A934BF626F6D563ED53AE0FE /* Pods_PoweOfThinking.framework */; };
+		EB75E2291E17D2D10AC38CC1 /* Pods_PoweOfThinkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA35A754AC9F60004FAC2E3 /* Pods_PoweOfThinkingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1277B8B526AA980176B12F5C /* Pods-PoweOfThinking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinking.release.xcconfig"; path = "Target Support Files/Pods-PoweOfThinking/Pods-PoweOfThinking.release.xcconfig"; sourceTree = "<group>"; };
+		387A7872C0C375035FB2F847 /* Pods_PoweOfThinking_PoweOfThinkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoweOfThinking_PoweOfThinkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3E3EBF2543CDB3004724A2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		7B770614254511B400CCE2C8 /* PoweOfThinking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoweOfThinking.entitlements; sourceTree = "<group>"; };
 		7BB7526B252C651800946383 /* PoweOfThinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoweOfThinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB7526E252C651800946383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BB75270252C651800946383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,26 @@
 		7BB7528C252C651C00946383 /* PoweOfThinkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoweOfThinkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB75290252C651C00946383 /* PoweOfThinkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoweOfThinkingUITests.swift; sourceTree = "<group>"; };
 		7BB75292252C651C00946383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB752A4252C738A00946383 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7BB752A9252C73A400946383 /* SignINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignINViewController.swift; sourceTree = "<group>"; };
+		7BB752AE252C982E00946383 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		7BB752B6252E4EF700946383 /* AnaSayfaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaViewController.swift; sourceTree = "<group>"; };
+		7BB752BE252E7AEA00946383 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7BB752C3252FBC9800946383 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7BB7532025385A3C00946383 /* GamePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageViewController.swift; sourceTree = "<group>"; };
+		7BF59611254B885700AF4F9C /* DesignableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableSlider.swift; sourceTree = "<group>"; };
+		7BF5963C254BA09200AF4F9C /* NextSigninPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSigninPageViewController.swift; sourceTree = "<group>"; };
+		7BF60A05253D016900DAEAD2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		7BF60A102540CDBF00DAEAD2 /* RotatingCircularGradientProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCircularGradientProgressBar.swift; sourceTree = "<group>"; };
+		7BF60A182540D84D00DAEAD2 /* SoulStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulStatusViewController.swift; sourceTree = "<group>"; };
+		7BF60A1D2540F11200DAEAD2 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		A288CE079E154F0D60E96316 /* Pods-PoweOfThinking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinking.debug.xcconfig"; path = "Target Support Files/Pods-PoweOfThinking/Pods-PoweOfThinking.debug.xcconfig"; sourceTree = "<group>"; };
+		A934BF626F6D563ED53AE0FE /* Pods_PoweOfThinking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoweOfThinking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72673A7A9293EBACC263B22 /* Pods-PoweOfThinkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinkingTests.debug.xcconfig"; path = "Target Support Files/Pods-PoweOfThinkingTests/Pods-PoweOfThinkingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8327F774C624F0289999763 /* Pods-PoweOfThinking-PoweOfThinkingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinking-PoweOfThinkingUITests.release.xcconfig"; path = "Target Support Files/Pods-PoweOfThinking-PoweOfThinkingUITests/Pods-PoweOfThinking-PoweOfThinkingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5C1374BD21D04BE2DEC3E01 /* Pods-PoweOfThinkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinkingTests.release.xcconfig"; path = "Target Support Files/Pods-PoweOfThinkingTests/Pods-PoweOfThinkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEA35A754AC9F60004FAC2E3 /* Pods_PoweOfThinkingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoweOfThinkingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8B94E063AE04DB3E432A32 /* Pods-PoweOfThinking-PoweOfThinkingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoweOfThinking-PoweOfThinkingUITests.debug.xcconfig"; path = "Target Support Files/Pods-PoweOfThinking-PoweOfThinkingUITests/Pods-PoweOfThinking-PoweOfThinkingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F3B48570805EBF54BB3CFD /* Pods_PoweOfThinking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB75E2291E17D2D10AC38CC1 /* Pods_PoweOfThinkingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648BAC6C874F6BF7CAF2DFAB /* Pods_PoweOfThinking_PoweOfThinkingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3950F1C5A7B22E1FE96D7378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A288CE079E154F0D60E96316 /* Pods-PoweOfThinking.debug.xcconfig */,
+				1277B8B526AA980176B12F5C /* Pods-PoweOfThinking.release.xcconfig */,
+				EC8B94E063AE04DB3E432A32 /* Pods-PoweOfThinking-PoweOfThinkingUITests.debug.xcconfig */,
+				C8327F774C624F0289999763 /* Pods-PoweOfThinking-PoweOfThinkingUITests.release.xcconfig */,
+				B72673A7A9293EBACC263B22 /* Pods-PoweOfThinkingTests.debug.xcconfig */,
+				D5C1374BD21D04BE2DEC3E01 /* Pods-PoweOfThinkingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F55E2D8AF1E3BF8D889CC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A934BF626F6D563ED53AE0FE /* Pods_PoweOfThinking.framework */,
+				387A7872C0C375035FB2F847 /* Pods_PoweOfThinking_PoweOfThinkingUITests.framework */,
+				DEA35A754AC9F60004FAC2E3 /* Pods_PoweOfThinkingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B0E0B9725CB48CD00BD4DBE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7BB752AE252C982E00946383 /* ForgotPasswordViewController.swift */,
+				7BB752A9252C73A400946383 /* SignINViewController.swift */,
+				7BB752A4252C738A00946383 /* SignUpViewController.swift */,
+				7BF5963C254BA09200AF4F9C /* NextSigninPageViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7B0E0B9825CB48F400BD4DBE /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				7BB75272252C651800946383 /* ViewController.swift */,
+				7BB7532025385A3C00946383 /* GamePageViewController.swift */,
+				7BB752BE252E7AEA00946383 /* ProfileViewController.swift */,
+				7BB752B6252E4EF700946383 /* AnaSayfaViewController.swift */,
+				7BF60A102540CDBF00DAEAD2 /* RotatingCircularGradientProgressBar.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		7B0E0B9925CB492D00BD4DBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BB75270252C651800946383 /* SceneDelegate.swift */,
+				7BB7526E252C651800946383 /* AppDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B0E0B9A25CB499600BD4DBE /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				7BF60A182540D84D00DAEAD2 /* SoulStatusViewController.swift */,
+				7BF60A1D2540F11200DAEAD2 /* CircularProgressBar.swift */,
+				7BF59611254B885700AF4F9C /* DesignableSlider.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
 		7BB75262252C651800946383 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +191,8 @@
 				7BB75284252C651C00946383 /* PoweOfThinkingTests */,
 				7BB7528F252C651C00946383 /* PoweOfThinkingUITests */,
 				7BB7526C252C651800946383 /* Products */,
+				3950F1C5A7B22E1FE96D7378 /* Pods */,
+				4F55E2D8AF1E3BF8D889CC51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +209,17 @@
 		7BB7526D252C651800946383 /* PoweOfThinking */ = {
 			isa = PBXGroup;
 			children = (
-				7BB7526E252C651800946383 /* AppDelegate.swift */,
-				7BB75270252C651800946383 /* SceneDelegate.swift */,
-				7BB75272252C651800946383 /* ViewController.swift */,
+				7B0E0B9A25CB499600BD4DBE /* ProgressBar */,
+				7B0E0B9925CB492D00BD4DBE /* View */,
+				7B0E0B9825CB48F400BD4DBE /* MainPage */,
+				7B0E0B9725CB48CD00BD4DBE /* Login */,
+				7B770614254511B400CCE2C8 /* PoweOfThinking.entitlements */,
+				7BF60A05253D016900DAEAD2 /* SwiftUIView.swift */,
 				7BB75274252C651800946383 /* Main.storyboard */,
 				7BB75277252C651B00946383 /* Assets.xcassets */,
 				7BB75279252C651B00946383 /* LaunchScreen.storyboard */,
 				7BB7527C252C651B00946383 /* Info.plist */,
+				7BB752C3252FBC9800946383 /* GoogleService-Info.plist */,
 			);
 			path = PoweOfThinking;
 			sourceTree = "<group>";
@@ -135,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BB75295252C651C00946383 /* Build configuration list for PBXNativeTarget "PoweOfThinking" */;
 			buildPhases = (
+				35E2519F2297512FA05BA735 /* [CP] Check Pods Manifest.lock */,
 				7BB75267252C651800946383 /* Sources */,
 				7BB75268252C651800946383 /* Frameworks */,
 				7BB75269252C651800946383 /* Resources */,
+				F6AAEF3F4B658E91A03D96E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BB75298252C651C00946383 /* Build configuration list for PBXNativeTarget "PoweOfThinkingTests" */;
 			buildPhases = (
+				8FFCAF3233ABD35FDCC0C46A /* [CP] Check Pods Manifest.lock */,
 				7BB7527D252C651C00946383 /* Sources */,
 				7BB7527E252C651C00946383 /* Frameworks */,
 				7BB7527F252C651C00946383 /* Resources */,
@@ -170,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BB7529B252C651C00946383 /* Build configuration list for PBXNativeTarget "PoweOfThinkingUITests" */;
 			buildPhases = (
+				60C4D5BC52EAA2A5D9A81D4C /* [CP] Check Pods Manifest.lock */,
 				7BB75288252C651C00946383 /* Sources */,
 				7BB75289252C651C00946383 /* Frameworks */,
 				7BB7528A252C651C00946383 /* Resources */,
+				F8D037FFD7F80BF095FB9601 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +332,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = 7BB75262252C651800946383;
 			productRefGroup = 7BB7526C252C651800946383 /* Products */;
@@ -232,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB7527B252C651B00946383 /* LaunchScreen.storyboard in Resources */,
+				7BB752C4252FBC9800946383 /* GoogleService-Info.plist in Resources */,
 				7BB75278252C651B00946383 /* Assets.xcassets in Resources */,
 				7BB75276252C651800946383 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +374,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35E2519F2297512FA05BA735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoweOfThinking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60C4D5BC52EAA2A5D9A81D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoweOfThinking-PoweOfThinkingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFCAF3233ABD35FDCC0C46A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoweOfThinkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AAEF3F4B658E91A03D96E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking/Pods-PoweOfThinking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking/Pods-PoweOfThinking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking/Pods-PoweOfThinking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D037FFD7F80BF095FB9601 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking-PoweOfThinkingUITests/Pods-PoweOfThinking-PoweOfThinkingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking-PoweOfThinkingUITests/Pods-PoweOfThinking-PoweOfThinkingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoweOfThinking-PoweOfThinkingUITests/Pods-PoweOfThinking-PoweOfThinkingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BB75267252C651800946383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB752B7252E4EF700946383 /* AnaSayfaViewController.swift in Sources */,
 				7BB75273252C651800946383 /* ViewController.swift in Sources */,
+				7BB7532125385A3D00946383 /* GamePageViewController.swift in Sources */,
+				7BF60A192540D84D00DAEAD2 /* SoulStatusViewController.swift in Sources */,
+				7BF5963D254BA09200AF4F9C /* NextSigninPageViewController.swift in Sources */,
 				7BB7526F252C651800946383 /* AppDelegate.swift in Sources */,
+				7BF60A06253D016900DAEAD2 /* SwiftUIView.swift in Sources */,
+				7BB752AF252C982E00946383 /* ForgotPasswordViewController.swift in Sources */,
+				7BF60A112540CDBF00DAEAD2 /* RotatingCircularGradientProgressBar.swift in Sources */,
+				7BB752A5252C738A00946383 /* SignUpViewController.swift in Sources */,
 				7BB75271252C651800946383 /* SceneDelegate.swift in Sources */,
+				7BB752BF252E7AEA00946383 /* ProfileViewController.swift in Sources */,
+				7BB752AA252C73A400946383 /* SignINViewController.swift in Sources */,
+				7BF59612254B885700AF4F9C /* DesignableSlider.swift in Sources */,
+				7BF60A1E2540F11200DAEAD2 /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +536,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7BB75275252C651800946383 /* Base */,
+				7B3E3EBF2543CDB3004724A2 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -366,7 +604,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,6 +618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -421,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,9 +672,12 @@
 		};
 		7BB75296252C651C00946383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A288CE079E154F0D60E96316 /* Pods-PoweOfThinking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PoweOfThinking/PoweOfThinking.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32QGKVDU76;
 				INFOPLIST_FILE = PoweOfThinking/Info.plist;
@@ -443,8 +685,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilk.PoweOfThinking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraates.application.PoweOfThinking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,9 +695,12 @@
 		};
 		7BB75297252C651C00946383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1277B8B526AA980176B12F5C /* Pods-PoweOfThinking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PoweOfThinking/PoweOfThinking.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32QGKVDU76;
 				INFOPLIST_FILE = PoweOfThinking/Info.plist;
@@ -462,8 +708,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilk.PoweOfThinking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boraates.application.PoweOfThinking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +718,7 @@
 		};
 		7BB75299252C651C00946383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72673A7A9293EBACC263B22 /* Pods-PoweOfThinkingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +741,7 @@
 		};
 		7BB7529A252C651C00946383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C1374BD21D04BE2DEC3E01 /* Pods-PoweOfThinkingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +764,7 @@
 		};
 		7BB7529C252C651C00946383 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8B94E063AE04DB3E432A32 /* Pods-PoweOfThinking-PoweOfThinkingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +785,7 @@
 		};
 		7BB7529D252C651C00946383 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8327F774C624F0289999763 /* Pods-PoweOfThinking-PoweOfThinkingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

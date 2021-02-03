@@ -1,0 +1,132 @@
+
+/* Class = "UITabBarItem"; title = "Ana Sayfa"; ObjectID = "01w-e1-u0z"; */
+"01w-e1-u0z.title" = "Ana Sayfa";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "3sr-0m-ZRI"; */
+"3sr-0m-ZRI.text" = "1000";
+
+/* Class = "UILabel"; text = "Merhaba!"; ObjectID = "4SQ-gh-fwr"; */
+"4SQ-gh-fwr.text" = "Merhaba!";
+
+/* Class = "UITextField"; placeholder = "E mail"; ObjectID = "69N-ph-S3i"; */
+"69N-ph-S3i.placeholder" = "E mail";
+
+/* Class = "UILabel"; text = "My Count :"; ObjectID = "8ph-yn-0SR"; */
+"8ph-yn-0SR.text" = "My Count :";
+
+/* Class = "UILabel"; text = "Hesap oluşturmak için gerekli bilgileri giriniz"; ObjectID = "AcW-3Y-mRH"; */
+"AcW-3Y-mRH.text" = "Hesap oluşturmak için gerekli bilgileri giriniz";
+
+/* Class = "UILabel"; text = "Click"; ObjectID = "Bmo-PO-CQ6"; */
+"Bmo-PO-CQ6.text" = "Click";
+
+/* Class = "UILabel"; text = "test"; ObjectID = "CLa-Nc-fvp"; */
+"CLa-Nc-fvp.text" = "test";
+
+/* Class = "UIButton"; normalTitle = "Parolanızı mı unuttunuz ?"; ObjectID = "DWG-HT-kDG"; */
+"DWG-HT-kDG.normalTitle" = "Parolanızı mı unuttunuz ?";
+
+/* Class = "UIButton"; normalTitle = "Giriş Yap"; ObjectID = "Hi3-wM-cJO"; */
+"Hi3-wM-cJO.normalTitle" = "Giriş Yap";
+
+/* Class = "UITextField"; placeholder = "E Mail Adresi "; ObjectID = "IQX-am-qim"; */
+"IQX-am-qim.placeholder" = "E Mail Adresi ";
+
+/* Class = "UILabel"; text = "Hesabınız Varsa"; ObjectID = "Ie0-qc-WBA"; */
+"Ie0-qc-WBA.text" = "Hesabınız Varsa";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "IgS-gG-fPR"; */
+"IgS-gG-fPR.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Hesap Oluştur"; ObjectID = "JRi-7a-sko"; */
+"JRi-7a-sko.normalTitle" = "Hesap Oluştur";
+
+/* Class = "UITabBarItem"; title = "7 Gün"; ObjectID = "Oxc-D6-K4O"; */
+"Oxc-D6-K4O.title" = "7 Gün";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "P5i-sl-hLe"; */
+"P5i-sl-hLe.text" = "1000";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "P9c-yo-bPr"; */
+"P9c-yo-bPr.text" = "100";
+
+/* Class = "UILabel"; text = "Şifreniz mail adresinize gönderilecektir."; ObjectID = "Pd9-fX-M5a"; */
+"Pd9-fX-M5a.text" = "Şifreniz mail adresinize gönderilecektir.";
+
+/* Class = "UILabel"; text = "KELİME"; ObjectID = "S8J-Ch-a8S"; */
+"S8J-Ch-a8S.text" = "KELİME";
+
+/* Class = "UIButton"; normalTitle = "UpLoad"; ObjectID = "TTy-bE-X9X"; */
+"TTy-bE-X9X.normalTitle" = "UpLoad";
+
+/* Class = "UITextField"; placeholder = "Şifre"; ObjectID = "UKF-OA-tu1"; */
+"UKF-OA-tu1.placeholder" = "Şifre";
+
+/* Class = "UITabBarItem"; title = "Ruh Halim"; ObjectID = "WR4-vc-yMQ"; */
+"WR4-vc-yMQ.title" = "Ruh Halim";
+
+/* Class = "UILabel"; text = "Hesabınız yok mu ?"; ObjectID = "XGT-cN-GDX"; */
+"XGT-cN-GDX.text" = "Hesabınız yok mu ?";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "aFe-mg-INU"; */
+"aFe-mg-INU.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Başla"; ObjectID = "bEz-f6-8TN"; */
+"bEz-f6-8TN.normalTitle" = "Başla";
+
+/* Class = "UITextField"; placeholder = "mail adresinizi giriniz"; ObjectID = "cAE-Ma-ojh"; */
+"cAE-Ma-ojh.placeholder" = "mail adresinizi giriniz";
+
+/* Class = "UILabel"; text = "Online"; ObjectID = "dE7-9r-vLf"; */
+"dE7-9r-vLf.text" = "Online";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "e7t-sW-z60"; */
+"e7t-sW-z60.text" = "1000";
+
+/* Class = "UIButton"; normalTitle = "Hesap Oluştur"; ObjectID = "gbM-bb-yAP"; */
+"gbM-bb-yAP.normalTitle" = "Hesap Oluştur";
+
+/* Class = "UILabel"; text = "PoT tam kullanmak için üye girişi yapınız yada üye olunuz."; ObjectID = "hb8-JC-sTz"; */
+"hb8-JC-sTz.text" = "PoT tam kullanmak için üye girişi yapınız yada üye olunuz.";
+
+/* Class = "UITextField"; placeholder = "Şifre"; ObjectID = "iut-fh-3Ub"; */
+"iut-fh-3Ub.placeholder" = "Şifre";
+
+/* Class = "UIButton"; normalTitle = "Gönder"; ObjectID = "lut-zc-7Xg"; */
+"lut-zc-7Xg.normalTitle" = "Gönder";
+
+/* Class = "UILabel"; text = "test2"; ObjectID = "mDk-c5-Y1z"; */
+"mDk-c5-Y1z.text" = "test2";
+
+/* Class = "UITabBarItem"; title = "Günlük"; ObjectID = "nKT-Kc-eYI"; */
+"nKT-Kc-eYI.title" = "Günlük";
+
+/* Class = "UILabel"; text = "Online"; ObjectID = "psx-CB-9VK"; */
+"psx-CB-9VK.text" = "Online";
+
+/* Class = "UILabel"; text = "Hoşgeldin!"; ObjectID = "qqC-px-mUK"; */
+"qqC-px-mUK.text" = "Hoşgeldin!";
+
+/* Class = "UILabel"; text = "Kullanıcı Sözleşmesini Kabul Ediyorum."; ObjectID = "tLV-df-iB3"; */
+"tLV-df-iB3.text" = "Kullanıcı Sözleşmesini Kabul Ediyorum.";
+
+/* Class = "UIButton"; normalTitle = "Hesap Oluştur"; ObjectID = "tcJ-BY-Kiq"; */
+"tcJ-BY-Kiq.normalTitle" = "Hesap Oluştur";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "uD7-hF-rKa"; */
+"uD7-hF-rKa.text" = "1000";
+
+/* Class = "UILabel"; text = "Bugün kendini nasıl hissediyorsun?"; ObjectID = "uch-Jq-LI5"; */
+"uch-Jq-LI5.text" = "Bugün kendini nasıl hissediyorsun?";
+
+/* Class = "UILabel"; text = "60"; ObjectID = "wQ1-Nz-vb7"; */
+"wQ1-Nz-vb7.text" = "60";
+
+/* Class = "UIButton"; normalTitle = "Giriş Yap"; ObjectID = "wzd-ZX-uqC"; */
+"wzd-ZX-uqC.normalTitle" = "Giriş Yap";
+
+/* Class = "UILabel"; text = "Şifremi Unuttum"; ObjectID = "xDS-d4-pcU"; */
+"xDS-d4-pcU.text" = "Şifremi Unuttum";
+
+/* Class = "UITextField"; placeholder = "İsim"; ObjectID = "yU2-Po-aYT"; */
+"yU2-Po-aYT.placeholder" = "İsim";
