@@ -33,12 +33,6 @@ class SignINViewController: UIViewController, LoginButtonDelegate, UITextFieldDe
         UserPasswordText.resignFirstResponder()
         
         return(true)
-    
-    }
-    
-    override func viewDidLayoutSubviews() {
-        signinButton.frame = CGRect(x: 75, y: 670, width: 260, height: 50)
-        
     }
     
     override func viewDidLoad()
@@ -80,13 +74,18 @@ class SignINViewController: UIViewController, LoginButtonDelegate, UITextFieldDe
         }
         else{
             let loginButton = FBLoginButton()
-            loginButton.frame = CGRect(x: 100, y: 700, width: 150, height: 30)
+            loginButton.frame = CGRect(x: 75, y: 720, width: 250, height: 50)
            // loginButton.setBackgroundImage(image, for: UIControl.State.normal)
                 loginButton.delegate = self
                 loginButton.permissions = ["public_profile", "email"]
            // loginButton = fbLoginButton as! FBLoginButton
                   view.addSubview(loginButton)
         }
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        signinButton.frame = CGRect(x: 75, y: 650, width: 250, height: 50)
         
     }
     

@@ -165,13 +165,14 @@
 			path = MainPage;
 			sourceTree = "<group>";
 		};
-		7B0E0B9925CB492D00BD4DBE /* View */ = {
+		7B0E0B9925CB492D00BD4DBE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7B0E0BA125CB720600BD4DBE /* Storyboards */,
 				7BB75270252C651800946383 /* SceneDelegate.swift */,
 				7BB7526E252C651800946383 /* AppDelegate.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7B0E0B9A25CB499600BD4DBE /* ProgressBar */ = {
@@ -182,6 +183,15 @@
 				7BF59611254B885700AF4F9C /* DesignableSlider.swift */,
 			);
 			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		7B0E0BA125CB720600BD4DBE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7BB75279252C651B00946383 /* LaunchScreen.storyboard */,
+				7BB75274252C651800946383 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		7BB75262252C651800946383 = {
@@ -210,14 +220,12 @@
 			isa = PBXGroup;
 			children = (
 				7B0E0B9A25CB499600BD4DBE /* ProgressBar */,
-				7B0E0B9925CB492D00BD4DBE /* View */,
+				7B0E0B9925CB492D00BD4DBE /* Views */,
 				7B0E0B9825CB48F400BD4DBE /* MainPage */,
 				7B0E0B9725CB48CD00BD4DBE /* Login */,
 				7B770614254511B400CCE2C8 /* PoweOfThinking.entitlements */,
 				7BF60A05253D016900DAEAD2 /* SwiftUIView.swift */,
-				7BB75274252C651800946383 /* Main.storyboard */,
 				7BB75277252C651B00946383 /* Assets.xcassets */,
-				7BB75279252C651B00946383 /* LaunchScreen.storyboard */,
 				7BB7527C252C651B00946383 /* Info.plist */,
 				7BB752C3252FBC9800946383 /* GoogleService-Info.plist */,
 			);
